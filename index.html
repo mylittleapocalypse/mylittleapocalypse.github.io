@@ -8,5 +8,13 @@
 </head>
 <body>
     <h1>Hello World</h1>
+    <script>
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = 500;
+        canvas.height = 500;
+        document.body.appendChild(canvas);
+        ctx.fillRect(0,0,50,50);
+    </script>
 </body>
 </html>
